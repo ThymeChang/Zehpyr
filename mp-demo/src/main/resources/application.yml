@@ -1,0 +1,11 @@
+logging:
+  level:
+    com.baomidou.mybatisplus.mapper: TRACE
+
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+    # 设置实体类的命名策略，加上 "Entity" 后缀
+    entity-name: "%sEntity"
